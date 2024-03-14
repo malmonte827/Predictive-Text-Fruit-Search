@@ -2,28 +2,46 @@
   /* box-sizing: border-box; */
 }
 
-:focus {
- /* TODO */
+@font-face {
+  font-family: appleCrush;
+  src: url(AppleCrush-zr8ML.ttf) format("truetype");
 }
 
 body {
-  /* TODO */
+  height: 100vh;
+  background: linear-gradient(90deg, rgba(255,227,0,1) 2%, rgba(255,177,0,1) 19%, rgba(255,157,0,1) 37%, rgba(255,144,0,1) 58%, rgba(255,125,0,1) 78%, rgba(255,103,0,1) 100%);display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 input {
- /* TODO */
+  font-family: appleCrush, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: none;
+  border-bottom: solid #ff6700;
+  width: 35rem;
+  height: 6rem;
+  font-size: 2rem;
 }
 
+
 .search-container {
- /* TODO */
+  
 }
+
 .search-container input,
 .search-container .suggestions {
-  /* TODO */
+  background: #ffb300
 }
+input:focus {
+outline: none;
+border: solid rgba(128, 128, 128, 0.164);
+border-bottom: solid #ff6700;
+}
+
 .search-container input {
- /* TODO */
+
 }
+
 .search-container .suggestions {
    /* TODO */
 }
@@ -39,8 +57,4 @@ ul li {
 }
 ul li:hover {
   /* TODO */
-}
-
-input {
-   /* TODO */
 }
