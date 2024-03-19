@@ -1,7 +1,4 @@
-* {
-  /* box-sizing: border-box; */
-}
-
+/* locally installed font */
 @font-face {
   font-family: appleCrush;
   src: url(AppleCrush-zr8ML.ttf) format("truetype");
@@ -23,10 +20,9 @@ input {
   padding: 0 1rem ;
 }
 
-
 .search-container input,
 .search-container .suggestions {
-  background: #ffb300
+  background: #ffb300;
 }
 
 input:focus {
@@ -47,6 +43,7 @@ ul {
 ul li {
 padding: 0.3rem 1rem;
 }
+
 ul li:hover {
 background: rgba(255,103,0,1);
 }
